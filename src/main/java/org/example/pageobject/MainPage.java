@@ -37,7 +37,5 @@ public class MainPage {
     return accordionPanel;
     }
     //Возвращяем текст из соответствующего элемента из панели вопросов на сайте
-    public String getAccordionHeadingText(int i){
-        return driver.findElement(By.xpath("//div[@id='accordion__panel-0']/p")).getText();
-    }
+
 }
